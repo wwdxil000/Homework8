@@ -44,6 +44,13 @@ public class Main {
             }
             System.out.print(arr2[i] + ", ");
         }
+        for (int i = arr3.length-1; i >= 0; i--){
+            if (i == 0){
+                System.out.println(arr3[i]);
+                break;
+            }
+            System.out.print(arr3[i] + ", ");
+        }
         // 4
         for (int i = 0; i < arr1.length; i++){
             if (arr1[i] % 2 == 1){
